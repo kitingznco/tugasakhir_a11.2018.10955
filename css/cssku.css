@@ -1,0 +1,191 @@
+                                                    /*  Header  */
+                                                
+                                                header {
+                                                    width: 100%;
+                                                    height: 100px;
+                                                    /*background: #f4c995;*/
+                                                    background-color: white;
+                                                    position: fixed;
+                                                    z-index: 9999;
+                                                }
+                                                
+                                                header .h_logo {
+                                                    float: left;
+                                                    margin-left: 20px;
+                                                    margin-top: 20px;
+                                                }
+                                                
+                                                header nav {
+                                                    float: right;
+                                                    margin-top: 42px;
+                                                    overflow: hidden;
+                                                }
+                                                
+                                                header nav ul li {
+                                                    float: left;
+                                                    margin-left: 30px;
+                                                }
+                                                
+                                                header nav ul li a {
+                                                    text-decoration: none;
+                                                    font-family: 'LatoBold', arial;
+                                                    font-weight: bold;
+                                                    font-size: 16px;
+                                                    color: #000000;
+                                                    letter-spacing: 1px;
+                                                }
+                                                
+                                                header nav ul li a:hover {
+                                                    color: gray;
+                                                }
+                                                /*  Billboard  */
+                                                
+                                                .billboard {
+                                                    width: 100%;
+                                                    height: 500px;
+                                                    background: #ffffff url('../images/billboard_bg.png') no-repeat fixed;
+                                                }
+                                                
+                                                .caption {
+                                                    width: 100%;
+                                                    text-align: center;
+                                                    position: absolute;
+                                                    top: 270px;
+                                                }
+                                                
+                                                .caption .cap_title {
+                                                    font-family: 'LatoBold', arial;
+                                                    font-weight: Bold;
+                                                    font-size: 40px;
+                                                    color: rgba(255, 255, 255, .1);
+                                                    text-transform: uppercase;
+                                                    letter-spacing: 1.5px;
+                                                }
+                                                
+                                                .caption .cap_desc {
+                                                    font-family: 'HoneyLight';
+                                                    font-size: 50px;
+                                                    color: rgba(255, 255, 255, .1);
+                                                    margin-top: 10px;
+                                                }
+                                                
+                                                .main {
+                                                    height: 50000px;
+                                                }
+                                                /*  Services  */
+                                                
+                                                .services {
+                                                    margin-bottom: 80px;
+                                                }
+                                                
+                                                .services .S_icons {
+                                                    margin-top: -80px;
+                                                    padding-left: 64px;
+                                                    margin-bottom: 30px;
+                                                }
+                                                
+                                                .services hr.sp {
+                                                    display: inline-block;
+                                                    width: 230px;
+                                                    height: 10px;
+                                                    border: 0;
+                                                    background: url('../img/separator.png') no-repeat;
+                                                    margin-bottom: 75px;
+                                                    margin-left: -4px;
+                                                }
+                                                
+                                                .services img {
+                                                    width: 200px;
+                                                    height: 200px;
+                                                    margin-left: -40px;
+                                                }
+                                                
+                                                .services .desc {
+                                                    width: 100%;
+                                                    overflow: hidden;
+                                                }
+                                                
+                                                .services .desc li {
+                                                    list-style: none;
+                                                    float: left;
+                                                    width: 235px;
+                                                    height: auto;
+                                                    text-align: center;
+                                                    margin-right: 155px;
+                                                }
+                                                
+                                                .services .desc li:first-child {
+                                                    margin-left: 22px;
+                                                }
+                                                
+                                                .services .desc li:last-child {
+                                                    margin-right: 0;
+                                                }
+                                                
+                                                .services .desc li h3 {
+                                                    font-family: 'LatoBold', arial;
+                                                    font-weight: bold;
+                                                    font-size: 25px;
+                                                    color: black;
+                                                    margin-bottom: 30px;
+                                                }
+                                                
+                                                .services .desc li p {
+                                                    font-family: 'LatoRegular', arial;
+                                                    font-size: 14px;
+                                                    color: black;
+                                                    line-height: 20px;
+                                                }
+                                                
+                                                .container {
+                                                    position: relative;
+                                                }
+                                                
+                                                .center {
+                                                    position: absolute;
+                                                    top: 50%;
+                                                    left: 50%;
+                                                    transform: translate(-50%, -50%);
+                                                    font-size: 18px;
+                                                }
+                                                /* img { 
+  width: 70%;
+  height: auto;
+  opacity: 0.;
+} */
+                                                
+                                                h1 {
+                                                    color: black;
+                                                    text-align: center;
+                                                    font-family: Harlow Solid Italic;
+                                                    font-size: 50px;
+                                                }
+                                                
+                                                .footer {
+                                                    background-color: transparent;
+                                                    overflow: auto;
+                                                    width: 100%;
+                                                    height: 150px;
+                                                    display: flexbox;
+                                                    border-radius: 1px;
+                                                }
+                                                
+                                                .sosial {
+                                                    float: right;
+                                                    margin: 0;
+                                                    padding: 0;
+                                                }
+                                                
+                                                .sosial ul li {
+                                                    display: inline-block;
+                                                    margin-right: 25px;
+                                                    list-style: none;
+                                                }
+                                                
+                                                .sosial ul li p {
+                                                    font-size: 15px;
+                                                    /* p {
+  text-align: center;
+  font-family:Franklin Gothic Medium Cond;
+  font-size: 20px;
+} */
